@@ -287,7 +287,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&KVM'
+  - '&ind_bat'
   - Ctl+1
   - Ctl+2
   - Ctl+3
@@ -299,7 +299,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - ''
-  - {t: ▽, type: trans}
+  - '&ind_con'
   - {t: ▽, type: trans}
   - Ctl+0
   - {t: ▽, type: trans}
