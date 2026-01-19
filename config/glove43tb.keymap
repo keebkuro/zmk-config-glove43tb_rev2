@@ -115,8 +115,8 @@
             bindings = <
 &kp LS(LC(LG(NUMBER_4)))  &kp LC(NUMBER_7)  &kp LC(NUMBER_8)  &kp LC(NUMBER_9)  &trans                              &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none
 &kp LS(LG(NUMBER_4))      &kp LC(NUMBER_4)  &kp LC(NUMBER_5)  &kp LC(NUMBER_6)  &trans  &trans      &bt BT_CLR      &bt BT_SEL 4  &none         &none         &none         &none
-&KVM                      &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &trans  &trans      &bt BT_CLR_ALL  &none         &none         &none         &trans        &none
-&trans                    &trans            &kp LC(NUMBER_0)  &trans            &trans  &trans      &trans          &trans                                                  &none
+&ind_bat                  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &trans  &trans      &bt BT_CLR_ALL  &none         &none         &none         &trans        &none
+&ind_con                  &trans            &kp LC(NUMBER_0)  &trans            &trans  &trans      &trans          &trans                                                  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
